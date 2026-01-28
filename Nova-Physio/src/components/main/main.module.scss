@@ -1,0 +1,13 @@
+.main_container {
+    min-height: 300rem;
+}
+
+.team_section {
+    background-color: var(--color-bg-primary);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}

@@ -1,8 +1,14 @@
+import Header from "./components/header/Header";
+import Main from "../src/components/main/Main";
+import Nav from "../src/components/nav/Nav";
+
 function App() {
     return (
         <>
-            <h1>Web Adriano</h1>
-            <small>Prueba de funcionamiento</small>
+            <Header />
+            <Nav />
+
+            <Main />
         </>
     );
 }
