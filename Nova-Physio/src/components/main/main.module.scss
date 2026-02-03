@@ -2,12 +2,27 @@
     min-height: 300rem;
 }
 
+section h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
 .team_section {
     background-color: var(--color-bg-primary);
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    padding: 2rem;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.services_section {
+    background-color: var(--color-bg-secondary);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem;
 }
