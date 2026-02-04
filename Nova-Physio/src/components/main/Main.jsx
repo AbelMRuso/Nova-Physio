@@ -4,6 +4,8 @@ import profileAdri from "../../assets/images/hero_Adri.JPG";
 import profileYas from "../../assets/images/hero_Yas.JPG";
 import ServicesCard from "../services_card/ServicesCard";
 import services from "../../data/services.js";
+import TreatmentCard from "../treatment_card/TreatmentCard.jsx";
+import treatments from "../../data/treatments.jsx";
 
 function Main() {
     return (
@@ -33,9 +35,21 @@ function Main() {
                     {services.map((service) => (
                         <ServicesCard
                             key={service.id}
+                            id={service.id}
                             serviceImg={service.image}
                             serviceTitle={service.title}
                             description={service.shortDescription}
+                        />
+                    ))}
+                </section>
+                <section className={styles.treatment_section}>
+                    <h2>LE TRAITEMENT</h2>
+                    {treatments.map((treatment) => (
+                        <TreatmentCard
+                            key={treatment.id}
+                            icon={treatment.icon}
+                            title={treatment.title}
+                            description={treatment.description}
                         />
                     ))}
                 </section>
