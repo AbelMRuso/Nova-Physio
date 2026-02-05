@@ -34,7 +34,7 @@ export const treatments = [
         description: (
             <>
                 <strong>Séances de 45 minutes</strong> 100 % personnalisées, utilisant des <strong>techniques de pointe</strong> et du
-                <strong>matériel haut de gamme</strong> pour garantir une <strong>récupération</strong> rapide et <strong>efficace</strong> des
+                <strong> matériel haut de gamme</strong> pour garantir une <strong>récupération</strong> rapide et <strong>efficace</strong> des
                 blessures.
             </>
         ),
@@ -46,7 +46,7 @@ export const treatments = [
         description: (
             <>
                 Toujours en pensant à votre bien-être, nous <strong>adapterons le plan de traitement</strong> en fonction de votre évolution et des
-                résultats attendus.<strong>Le traitement spécifique</strong> nécessite généralement <strong>entre 1 et 3 séances</strong>, auxquelles
+                résultats attendus.<strong> Le traitement spécifique</strong> nécessite généralement <strong>entre 1 et 3 séances</strong>, auxquelles
                 nous ajouterons des exercices et des séances de physiothérapie classique si nécessaire pour accompagner le traitement et améliorer le
                 processus de récupération.
             </>

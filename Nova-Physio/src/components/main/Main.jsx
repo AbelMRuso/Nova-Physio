@@ -6,6 +6,7 @@ import ServicesCard from "../services_card/ServicesCard";
 import services from "../../data/services.js";
 import TreatmentCard from "../treatment_card/TreatmentCard.jsx";
 import treatments from "../../data/treatments.jsx";
+import CtaButton from "../ctaButton/CtaButton.jsx";
 
 function Main() {
     return (
@@ -52,6 +53,7 @@ function Main() {
                             description={treatment.description}
                         />
                     ))}
+                    <CtaButton />
                 </section>
             </main>
         </>
