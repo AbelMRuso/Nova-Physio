@@ -10,6 +10,8 @@ export const services = [
         title: "Électropuncture eco-guide",
         shortDescription:
             "La neuromodulation percutanée (NMP) est une technique invasive basée sur la stimulation de points neuro-réactifs de l’organisme à l’aide d’aiguilles de puncture sèche ou d’acupuncture, associées à des appareils d’électrothérapie. Elle est utilisée pour améliorer la douleur et les dysfonctionnements neuro-musculo-squelettiques, en rétablissant le bon fonctionnement du système nerveux.",
+
+        subtitle: "de l'électropunture eco-guide",
         treatmentEffects:
             "Elle favorise l’autoréparation et l’autorégulation du système nerveux et de l’organisme dans son ensemble, améliorant ainsi la fonctionnalité et la capacité d’adaptation du système neuromusculosquelettique",
         treatmentGoals: [
@@ -34,23 +36,23 @@ export const services = [
         image: neuromodulationImg,
         title: "Neuromodulation percutanée",
         shortDescription:
-            "La neuromodulation percutanée (NMP) est une technique invasive basée sur la stimulation de points neuro-réactifs de l’organisme à l’aide d’aiguilles de puncture sèche ou d’acupuncture, associées à des appareils d’électrothérapie. Elle est utilisée pour améliorer la douleur et les dysfonctionnements neuro-musculo-squelettiques, en rétablissant le bon fonctionnement du système nerveux.",
+            "La neuromodulation percutanée (NMP) est une technique invasive basée sur la stimulation de points neuro-réactifs de l’organisme à l’aide d’aiguilles de puncture sèche ou d’acupuncture, associées à des appareils d’électrothérapie. Elle est utilisée pour améliorer la douleur et les dysfonctionnements neuro-musculo-squelettiques, en **rétablissant le bon fonctionnement du système nerveux.**",
+        subtitle: "de la neuromodulation percutanée",
         treatmentEffects:
             "Elle favorise l’autoréparation et l’autorégulation du système nerveux et de l’organisme dans son ensemble, améliorant ainsi la fonctionnalité et la capacité d’adaptation du système neuromusculosquelettique",
         treatmentGoals: [
-            "Diminuer la douleur",
-            "Rétablir la fonction du système nerveux au niveau périphérique, central, somatique, autonome, sensoriel, moteur, vasculaire, glandulaire et viscéral",
-            "Améliorer la fonction neuromusculaire, les schémas de recrutement musculaire et le contrôle moteur",
+            "**Diminuer la douleur**",
+            "**Rétablir la fonction du système nerveux** au niveau périphérique, central, somatique, autonome, sensoriel, moteur, vasculaire, glandulaire et viscéral",
+            "**Améliorer** la fonction neuromusculaire, les schémas de recrutement musculaire et le **contrôle moteur**",
         ],
         treatmentIndications: [
-            "Douleur chronique, avec une grande efficacité chez les patients souffrant de douleur neuropathique",
-            "Altérations du tonus musculaire, rétractions fasciales, lésions ligamentaires ou pathologies capsulo-articulaires",
-            "Amélioration de la fonction neuromusculaire, des schémas de recrutement, du contrôle moteur et de la proprioception",
-            "Enchevêtrements ou compressions nerveuses",
-            "Hernies discales associées à une radiculopathie",
+            "**Douleur chronique**, avec une grande efficacité chez les patients souffrant de douleur neuropathique",
+            "Altérations du tonus musculaire, rétractions fasciales, **lésions ligamentaires** ou pathologies capsulo-articulaires",
+            "**Enchevêtrements** ou compressions nerveuses",
+            "**Hernies discales** associées à une radiculopathie",
             "Amélioration des performances chez les sportifs présentant des symptômes liés à des processus de sensibilisation périphérique et centrale",
-            "Tendinopathies",
-            "Déchirures musculaires",
+            "**Tendinopathies**",
+            "**Déchirures musculaires**",
         ],
     },
 
@@ -60,6 +62,7 @@ export const services = [
         title: "Punction-seche eco-guidé",
         shortDescription:
             "La neuromodulation percutanée (NMP) est une technique invasive basée sur la stimulation de points neuro-réactifs de l’organisme à l’aide d’aiguilles de puncture sèche ou d’acupuncture, associées à des appareils d’électrothérapie. Elle est utilisée pour améliorer la douleur et les dysfonctionnements neuro-musculo-squelettiques, en rétablissant le bon fonctionnement du système nerveux.",
+        subtitle: "de la punction-seche eco-guidé",
         treatmentEffects:
             "Elle favorise l’autoréparation et l’autorégulation du système nerveux et de l’organisme dans son ensemble, améliorant ainsi la fonctionnalité et la capacité d’adaptation du système neuromusculosquelettique",
         treatmentGoals: [
@@ -85,6 +88,7 @@ export const services = [
         title: "Bilan kiné échographique",
         shortDescription:
             "La neuromodulation percutanée (NMP) est une technique invasive basée sur la stimulation de points neuro-réactifs de l’organisme à l’aide d’aiguilles de puncture sèche ou d’acupuncture, associées à des appareils d’électrothérapie. Elle est utilisée pour améliorer la douleur et les dysfonctionnements neuro-musculo-squelettiques, en rétablissant le bon fonctionnement du système nerveux.",
+        subtitle: "du bilan kiné échographique",
         treatmentEffects:
             "Elle favorise l’autoréparation et l’autorégulation du système nerveux et de l’organisme dans son ensemble, améliorant ainsi la fonctionnalité et la capacité d’adaptation du système neuromusculosquelettique",
         treatmentGoals: [
@@ -110,6 +114,7 @@ export const services = [
         title: "EPI",
         shortDescription:
             "La neuromodulation percutanée (NMP) est une technique invasive basée sur la stimulation de points neuro-réactifs de l’organisme à l’aide d’aiguilles de puncture sèche ou d’acupuncture, associées à des appareils d’électrothérapie. Elle est utilisée pour améliorer la douleur et les dysfonctionnements neuro-musculo-squelettiques, en rétablissant le bon fonctionnement du système nerveux.",
+        subtitle: "de l'EPI",
         treatmentEffects:
             "Elle favorise l’autoréparation et l’autorégulation du système nerveux et de l’organisme dans son ensemble, améliorant ainsi la fonctionnalité et la capacité d’adaptation du système neuromusculosquelettique",
         treatmentGoals: [

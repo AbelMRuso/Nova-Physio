@@ -1,16 +1,19 @@
-import Header from "./components/header/Header";
-import Main from "../src/components/main/Main";
-import Nav from "../src/components/nav/Nav";
-import Footer from "./components/footer/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Treatment from "./pages/treatment/Treatment";
 
 function App() {
     return (
-        <>
-            <Header />
-            <Nav />
-            <Main />
-            <Footer />
-        </>
+        <Routes>
+            <Route
+                path="/"
+                element={<Home />}
+            />
+            <Route
+                path="/services/:id"
+                element={<Treatment />}
+            />
+        </Routes>
     );
 }
 

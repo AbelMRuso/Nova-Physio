@@ -31,7 +31,9 @@ h6 {
 }
 
 p,
-small {
+small,
+ul,
+ol {
     font-family: "Quicksand", serif;
 }
 
