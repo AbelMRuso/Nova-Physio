@@ -4,7 +4,10 @@ import CtaButton from "../ctaButton/CtaButton";
 function Header() {
     return (
         <>
-            <header className={styles.container}>
+            <header
+                id="home"
+                className={styles.container}
+            >
                 <div className={styles.logo}>
                     <img
                         src={logo}

@@ -6,7 +6,10 @@ import mapImage from "../../assets/images/address.png";
 function Footer() {
     return (
         <>
-            <footer className={styles.footer_container}>
+            <footer
+                id="contact"
+                className={styles.footer_container}
+            >
                 <div className={styles.info_container}>
                     <div className={styles.info_block}>
                         <img

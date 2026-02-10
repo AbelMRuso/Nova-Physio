@@ -1,10 +1,27 @@
 .navbar {
     background-color: var(--color-primary);
-    padding: 1rem 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-around;
-
     position: sticky;
     top: 0;
     z-index: 99;
+}
+
+.navlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 575px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+    .text {
+        font-size: 0.9rem;
+    }
+    .icon {
+        font-size: 1.3rem;
+    }
 }

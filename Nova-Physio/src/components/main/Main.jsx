@@ -12,7 +12,10 @@ function Main() {
     return (
         <>
             <main className={styles.main_container}>
-                <section className={styles.team_section}>
+                <section
+                    id="team"
+                    className={styles.team_section}
+                >
                     <h2>L'ÉQUIPE</h2>
                     <HeroCard
                         profileImage={profileAdri}
@@ -31,7 +34,10 @@ function Main() {
                         }
                     />
                 </section>
-                <section className={styles.services_section}>
+                <section
+                    id="services"
+                    className={styles.services_section}
+                >
                     <h2>NOS SERVICES</h2>
                     {services.map((service) => (
                         <ServicesCard
@@ -43,7 +49,10 @@ function Main() {
                         />
                     ))}
                 </section>
-                <section className={styles.treatment_section}>
+                <section
+                    id="treatment"
+                    className={styles.treatment_section}
+                >
                     <h2>LE TRAITEMENT</h2>
                     {treatments.map((treatment) => (
                         <TreatmentCard
