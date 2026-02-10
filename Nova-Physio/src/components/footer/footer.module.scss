@@ -8,6 +8,12 @@
     gap: 4rem;
 }
 
+.text_and_map_container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
 .info_container {
     display: flex;
     flex-direction: column;
@@ -52,4 +58,16 @@
 
 .mentions span {
     color: var(--color-secondary);
+}
+
+@media (min-width: 1024px) {
+    .text_and_map_container {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .map_container {
+        width: 30rem;
+    }
 }

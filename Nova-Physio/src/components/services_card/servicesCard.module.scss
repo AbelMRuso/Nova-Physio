@@ -39,3 +39,10 @@
 .description_container h3 {
     margin: 0;
 }
+
+@media (min-width: 768px) {
+    .card {
+        width: 22rem;
+        height: 24rem;
+    }
+}

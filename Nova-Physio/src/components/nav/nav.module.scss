@@ -1,6 +1,6 @@
 .navbar {
     background-color: var(--color-primary);
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-around;
     position: sticky;
@@ -14,14 +14,38 @@
     align-items: center;
 }
 
-@media (max-width: 575px) {
+.text {
+    font-size: 0.9rem;
+}
+.icon {
+    font-size: 1.3rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .navlink {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
     .navbar {
-        padding: 0.5rem;
+        padding: 1rem;
     }
     .text {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
+
     .icon {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .icon {
+        font-size: 1.6rem;
     }
 }

@@ -46,3 +46,29 @@
     color: var(--color-accent);
     font-size: small;
 }
+
+@media (min-width: 768px) {
+    .card {
+        width: 22rem;
+        height: 20rem;
+    }
+    .description_container h3 {
+        font-size: 1.6rem;
+    }
+    .description_container p {
+        font-size: 0.9rem;
+    }
+    .description_container {
+        padding: 0 1.6rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        width: 18rem;
+        height: 26rem;
+    }
+    .description_container {
+        height: 100%;
+    }
+}

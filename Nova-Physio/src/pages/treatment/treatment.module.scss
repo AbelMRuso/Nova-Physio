@@ -42,3 +42,20 @@ ol {
 .info_container h2 {
     font-size: 1.3rem;
 }
+
+@media (min-width: 1124px) {
+    .image_and_info_container {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        padding-left: 2rem;
+        height: 100%;
+    }
+
+    .image_container {
+        height: 35rem;
+    }
+    .info_container {
+        padding-right: 2rem;
+    }
+}

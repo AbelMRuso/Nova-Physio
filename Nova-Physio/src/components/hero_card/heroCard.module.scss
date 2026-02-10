@@ -82,3 +82,24 @@
         transform: rotateY(180deg);
     }
 }
+
+@media (min-width: 768px) {
+    .card {
+        width: 18rem;
+        height: 22rem;
+    }
+
+    .name {
+        font-size: 1.8rem;
+    }
+    .ocupation {
+        font-size: 1.5rem;
+    }
+
+    .hero_info {
+        gap: 1.5rem;
+    }
+    .profile_image {
+        height: 12rem;
+    }
+}
